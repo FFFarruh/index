@@ -1,0 +1,172 @@
+body {
+	background-color: #888;
+}
+
+.chat {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	background-color: #333;
+	width: 400px;
+	height: 100vh;
+}
+
+.chat__body {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 400px;
+	height: 0; 
+	flex: auto; 
+}
+
+.chat__message-list {
+	display: block;
+	overflow: auto;
+	padding:0;
+	margin:0;
+}
+
+.chat__message {
+	display: block;
+	padding:0;
+	margin:0;
+}
+
+.chat__footer {
+	display: block;
+}
+
+.chat__control {
+	display: block;
+	opacity: 1;
+}
+
+.chat__message-input {
+	display: block;
+	box-sizing: border-box;
+	width: 100%; 
+	height: 50px;
+	font-size: 32px;
+	resize: none;
+	border-radius: 10px;
+}
+
+.chat__controls {
+	display: flex;
+	width: 400px;
+	height: 50px;
+}
+
+
+
+
+.message-snippet {
+	display: flex;
+	width: 100%;
+}
+
+.message-snippet__info {
+	display: flex;
+}
+
+.message-snippet__author {
+	display: flex;
+	width: 64px;
+	bottom: 1px;
+}
+
+.message-snippet__time {
+	display: block;
+	float: right;
+	width: 100px;
+	color: #999;
+}
+
+.message-snippet__text {
+	display: block;
+	background-color: #555;
+	border-radius: 10px;
+	padding: 5px;
+	width: 280px;
+	word-wrap: break-word;
+}
+
+
+
+
+.message-text {
+	display: block;
+	color: #fff;
+	opacity: 1;
+}
+
+
+
+
+.author {
+	display: block;
+	width: 100%;
+}
+
+.author__name {
+	display: flex;
+	width: 100%;
+	color: #c72;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 5px;
+}
+
+.author__avatar {
+	display: block;
+	position: sticky; 
+	top: 10px;
+
+}
+
+
+
+
+.illustration {
+	display: block;
+}
+
+.illustration__img {
+	display: block;
+	width: 64px;
+	height: 100%;
+	border-radius: 100%;
+}
+
+
+
+
+.button {
+	display: block;
+	box-sizing: border-box;
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 16px;
+	background: #555;
+	color: #fff;
+}
+
+
+
+
+.message-date {
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+
+/* Removes scrolling throughout the site */
+::-webkit-scrollbar {
+	width: 0;
+}

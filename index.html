@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Чатик</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  	<div class="chat js-chat">
+	  	<div class="chat__body">
+	  		<ul class="chat__message-list js-chat-msgs">
+		  		<li class="chat__message">
+		  			<div class="message-snippet">
+						<div class="message-snippet__author">
+							<div class="author">
+								<div class="author__avatar">
+									<div class="illustration"><img class="illustration__img" src="https://cdn.discordapp.com/avatars/164761664841842689/29ca5ab7bdc8c4eee968815ec0a0d78c.webp"></div>
+								</div>
+							</div>
+						</div>
+						<div class="message-snippet__msg">
+							<div class="message-snippet__info">
+								<div class="author__name">Духффф</div>
+								<span class="message-snippet__time">
+									21:30:32
+								</span>
+							</div>
+							<span class="message-snippet__text">
+								<cpan class="message-text">Здесь может быть ваша реклама!</cpan>
+							</span>
+						</div>
+		  			</div>
+		  		</li>
+		  	</ul>
+	  	</div>
+	    <div class="chat__footer">
+	    	<div class="chat__controls"> 
+	    		<div class="chat__control">
+	    			<textarea name="messages" class="chat__message-input js-chat-msg-input"></textarea>
+	    		</div>
+	    		<div class="chat__control">
+	    			<button class="button button_style_light js-chat-submit">Submit message</button>
+	    		</div>
+	    	</div>
+	    </div>
+  	</div>
+<script src="app.js"></script>
+</body>
+</html>
