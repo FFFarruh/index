@@ -1,3 +1,4 @@
+/*index.html*/
 body {
 	background-color: #888;
 }
@@ -145,12 +146,29 @@ body {
 .button {
 	display: block;
 	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.button_style_light {
 	width: 100px;
 	height: 50px;
-	border-radius: 10px;
 	font-size: 16px;
 	background: #555;
 	color: #fff;
+}
+
+.button_move_right {
+	font-size: 24px;
+	margin: 0 0 auto auto;
+	width: 100px;
+	height: 50px;
+	background: #555;
+	color: #fff;
+}
+
+.button_width-wider {
+	width: 200px;
+	font-size: 20px;
 }
 
 
@@ -169,4 +187,104 @@ body {
 /* Removes scrolling throughout the site */
 ::-webkit-scrollbar {
 	width: 0;
+}
+
+
+
+
+/*section.html*/
+
+.section {
+	display: block;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #333;
+	width: 600px;
+	height: 400px;
+	color: #fff;
+}
+
+.section__header {
+	display: block;
+	/* background-color: #c72; */
+	margin: 30px;
+}
+
+
+.section__body {
+	display: block;
+	/* background-color: #c02; */
+	margin: 0 15%;	
+	height: 200px;
+	font-size: 24px;
+	padding: 15px;
+}
+
+.section__contol {
+	display: block;
+	margin: 30px 0;
+}
+
+.section__login {
+	display: flex;
+	margin: 5px;
+}
+
+.section__login-lable {
+	display: block;
+}
+
+.section__login-input {
+	display: block;
+	width: 100%;
+}
+
+.section__password {
+	display: flex;
+	margin: 5px;
+}
+
+.section__password-lable {
+	display: block;
+}
+
+.section__password-input {
+	display: block;
+	width: 100%;
+}
+
+
+.section__footer {
+	display: block;
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+.section__link {
+	display: block;
+	font-size: 24px;
+	color: #fff;
+}
+
+.section__link_position-absolute {
+	position: absolute;
+}
+
+
+.title {
+	display: block;
+	box-sizing: border-box;
+	font-size: 40px;
+	text-align:center;
+}
+
+
+
+
+.form {
+	display: block;
 }
